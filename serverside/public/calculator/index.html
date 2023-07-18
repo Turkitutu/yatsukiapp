@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="raw">
+      <input type="text" id="res" disabled />
+    </div>
+    <div class="raw">
+      <button class="btn col" onclick="calc.concat('div')">div</button>
+      <button class="btn col" onclick="calc.concat('mod')">mod</button>
+      <button class="btn col" onclick="calc.concat('/')">/</button>
+      <button class="btn col" onclick="calc.clear()">C</button>
+    </div>
+    <div class="raw">
+      <button class="btn col" onclick="calc.concat('7')">7</button>
+      <button class="btn col" onclick="calc.concat('8')">8</button>
+      <button class="btn col" onclick="calc.concat('9')">9</button>
+      <button class="btn col" onclick="calc.concat('*')">*</button>
+    </div>
+    <div class="raw">
+      <button class="btn col" onclick="calc.concat('4')">4</button>
+      <button class="btn col" onclick="calc.concat('5')">5</button>
+      <button class="btn col" onclick="calc.concat('6')">6</button>
+      <button class="btn col" onclick="calc.concat('-')">-</button>
+    </div>
+    <div class="raw">
+      <button class="btn col" onclick="calc.concat('1')">1</button>
+      <button class="btn col" onclick="calc.concat('2')">2</button>
+      <button class="btn col" onclick="calc.concat('3')">3</button>
+      <button class="btn col" onclick="calc.concat('+')">+</button>
+    </div>
+    <div class="raw">
+      <button class="btn col" onclick="calc.back()">back</button>
+      <button class="btn col" onclick="calc.concat('0')">0</button>
+      <button class="btn col" onclick="calc.concat('.')">.</button>
+      <button class="btn col" onclick="calc.calculate()">=</button>
+    </div>
+    <script src="index.js"></script>
+    <script>
+      const calc = new Calculator();
+      calc.update();
+    </script>
+  </body>
+</html>

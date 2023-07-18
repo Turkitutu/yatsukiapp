@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28e91b89.css",
+    "main.js": "/static/js/main.05b5ea16.js",
+    "static/media/recovered.png": "/static/media/recovered.9ecfd8d94c41411d731e.png",
+    "static/media/active.png": "/static/media/active.160756aaa2f46fe5bd93.png",
+    "static/media/deaths.png": "/static/media/deaths.d9f90d4cf4654f9b1227.png",
+    "static/media/cases.png": "/static/media/cases.aa5bf81fb23fb72a2a1b.png",
+    "index.html": "/index.html",
+    "static/media/tunisia.svg": "/static/media/tunisia.3796635e6bb5d341e3dd6c5df6d1aa3f.svg",
+    "main.28e91b89.css.map": "/static/css/main.28e91b89.css.map",
+    "main.05b5ea16.js.map": "/static/js/main.05b5ea16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28e91b89.css",
+    "static/js/main.05b5ea16.js"
+  ]
+}
